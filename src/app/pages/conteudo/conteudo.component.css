@@ -1,0 +1,49 @@
+.container_conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.conteudo_foto{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.conteudo_foto img{
+ width: 50%;
+ height: 300px;
+}
+
+.conteudo_titulo{
+ width: 50%;
+ margin: 10px;
+}
+
+.conteudo_descricao {
+ width: 50%;
+}
+
+
+.conteudo_descricao p{
+  color: grey;
+ }
+
+.retornar{
+  width: 150px;
+  height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: rgb(124, 123, 123);
+
+ border-radius: 5px;
+ border: solid 1px rgb(133, 133, 133);
+}
+
+.retornar:hover{
+ border: solid 1px white;
+ color: white;
+ cursor: pointer;
+}
